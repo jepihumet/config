@@ -1,5 +1,5 @@
 {
-    "name": "jepihumet/config",
+    "name": "jepi/config",
     "license": "MIT License",
     "authors": [
         {
@@ -10,7 +10,7 @@
     "minimum-stability": "alpha",
     "require": {
         "php": ">=5.5.0",
-        "jepihumet/exception": "*"
+        "jepi/exception": "*"
     },
     "autoload": {
         "psr-4": {
