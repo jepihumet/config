@@ -29,7 +29,7 @@ class ConfigAbstractTest extends \PHPUnit_Framework_TestCase {
     }
 
     /**
-     * @covers Jepi\Fw\Config\ConfigAbstract::set
+     * @covers Jepi\Config\ConfigAbstract::set
      */
     public function testSet() {
         self::$object->set('Routing', 'a', 1);
@@ -37,7 +37,7 @@ class ConfigAbstractTest extends \PHPUnit_Framework_TestCase {
 
     /**
      * @depends testSet
-     * @covers Jepi\Fw\Config\ConfigAbstract::get
+     * @covers Jepi\Config\ConfigAbstract::get
      */
     public function testGet() {
         $a = self::$object->get('Routing', 'a');
@@ -46,7 +46,7 @@ class ConfigAbstractTest extends \PHPUnit_Framework_TestCase {
 
     /**
      * @depends testGet
-     * @covers Jepi\Fw\Config\ConfigAbstract::getSection
+     * @covers Jepi\Config\ConfigAbstract::getSection
      */
     public function testGetSection() {
         $routing = self::$object->getSection('Routing');

@@ -32,7 +32,7 @@ class ConfigTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers Jepi\Fw\Config\Config::loadFile
+     * @covers Jepi\Config\Config::loadFile
      */
     public function testLoadFile()
     {
@@ -46,7 +46,7 @@ class ConfigTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers Jepi\Fw\Config\Config::loadArray
+     * @covers Jepi\Config\Config::loadArray
      */
     public function testLoadArray()
     {
@@ -67,7 +67,7 @@ class ConfigTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers Jepi\Fw\Config\Config::getData
+     * @covers Jepi\Config\Config::getData
      * @depends testLoadArray
      * @param $config
      */
