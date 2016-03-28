@@ -1,7 +1,7 @@
 <?php
 
-namespace Jepi\Fw\Config;
-use Jepi\Fw\Exceptions\ConfigException;
+namespace Jepi\Config;
+use Jepi\Exceptions\ConfigException;
 
 /**
  * ConfigAbstract.php

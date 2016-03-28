@@ -1,6 +1,6 @@
 <?php
 
-namespace Jepi\Fw\Config;
+namespace Jepi\Config;
 
 /**
  * ConfigInterface.php
