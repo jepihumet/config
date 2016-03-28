@@ -9,7 +9,11 @@
     ],
     "minimum-stability": "alpha",
     "require": {
-        "php": ">=5.5.0",
-        "jepi/exception": "*"
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jepi\\Config\\": "src"
+        }
     }
 }
