@@ -5,7 +5,6 @@ namespace Jepi\Config;
 /**
  * ConfigInterface.php
  *
- * @package     JepiFW
  * @author      Jepi Humet Alsius <jepihumet@gmail.com>
  * @link        http://jepihumet.com
  */

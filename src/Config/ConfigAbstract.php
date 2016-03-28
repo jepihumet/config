@@ -1,12 +1,10 @@
 <?php
 
 namespace Jepi\Config;
-use Jepi\Exceptions\ConfigException;
 
 /**
  * ConfigAbstract.php
  *
- * @package     JepiFW
  * @author      Jepi Humet Alsius <jepihumet@gmail.com>
  * @link        http://jepihumet.com
  */
