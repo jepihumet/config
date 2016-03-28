@@ -1,0 +1,12 @@
+{
+    "name": "jepi/config",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Jepi Humet",
+            "email": "jepihumet@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
