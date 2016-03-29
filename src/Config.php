@@ -19,7 +19,7 @@ class Config extends ConfigAbstract {
      * @param string $path
      */
     public function loadFile($path) {
-        $configFromFile = parse_ini_file($path, true, INI_SCANNER_TYPED);
+        $configFromFile = parse_ini_file($path, true, (int)INI_SCANNER_TYPED);
         foreach($configFromFile as $key => $values){
             if (!array_key_exists($key, $this->config)) {
                 $this->config[$key] = array();
